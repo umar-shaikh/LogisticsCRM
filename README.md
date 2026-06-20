@@ -147,25 +147,9 @@ ng serve
 
 The Angular app will be available at `http://localhost:4200`
 
-### 3. Default Login
-
-After setting up the database, create a user via Laravel Tinker:
-
-```bash
-php artisan tinker
-
-# In tinker:
-App\Models\User::create([
-    'name' => 'Admin',
-    'email' => 'admin@logistics.com',
-    'password' => bcrypt('password'),
-    'role' => 'super_admin'
-]);
 ```
 
-Then login with:
-- **Email**: `admin@logistics.com`
-- **Password**: `password`
+
 
 ## API Endpoints
 
