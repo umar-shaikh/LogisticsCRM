@@ -1,0 +1,46 @@
+# =========================
+# Angular
+# =========================
+node_modules/
+.angular/
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# =========================
+# Laravel
+# =========================
+vendor/
+.env
+.env.*
+!.env.example
+
+/public/hot
+/public/storage
+/storage/*.key
+
+# Laravel caches
+/bootstrap/cache/*.php
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# General
+# =========================
+*.log
